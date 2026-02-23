@@ -1,0 +1,190 @@
+
+#mainHeading {
+    color: rgb(169, 20, 20);
+    text-align: center;
+    text-decoration: overline;
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+}
+
+
+h2, h3, h4, h5, h6 {
+    color: rgb(169, 20, 20);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+body {
+    background-color: rgba(77, 138, 147, 0.696);
+    font-family: 'Verdana', sans-serif;
+    margin: 10px;
+}
+
+
+#navbar {
+    position: sticky; 
+    top: 0; 
+    width: 100%; 
+    background-color: rgb(169, 20, 20);
+    padding: 10px 0;
+   
+}
+
+#navbar ul {
+    display: flex; 
+    justify-content: space-around; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#navbar ul li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: bold;
+    padding: 5px 15px; 
+    border-radius: 5px; 
+}
+
+#navbar ul li a:hover {
+    background-color:black;
+    color: white;
+}
+
+
+#scaryHeading {
+    color: darkgreen;
+    font-size: 26px;
+    margin-top: 20px;
+    /* We want it to show as a link: */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+#table th, #table td {
+    border: 1px solid #ddd;
+    padding: 16px;
+}
+
+#table th {
+    background-color: darkred;
+    color: white;
+}
+
+
+.importantP {
+    color: rgb(250, 240, 230);
+}
+
+.unimportantP {
+    font-style: italic;
+}
+
+.lists {
+    background-color: rgba(208, 145, 145, 0.637);
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+#form {
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 400px;
+    background-color: white;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+}
+
+#form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+#form input, #form select, #form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form button:hover {
+    background-color: darkred;
+}
+
+button {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#www abbr {
+    border-bottom: 1px dotted;
+    cursor: help;
+   
+}
+
+#www {
+     /* We want it to show as a link: */
+     text-decoration: underline;
+     color: blue;
+     cursor: pointer;
+}
+
+#www:hover {
+    color: red;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    color: rgb(234, 234, 234);
+
+}
+
+/* Non-basic selectors */
+ul.lists > li:first-child {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#table tr:nth-child(2) td {
+    background-color: rgb(242, 224, 210);
+}
+
+.importantP strong {
+    color: darkred;
+}
+
